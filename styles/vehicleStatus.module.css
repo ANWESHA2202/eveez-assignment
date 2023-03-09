@@ -1,0 +1,66 @@
+.vehicle {
+    border: .5px solid #ff5733;
+    position: relative;
+    top: 100px;
+    width: 90%;
+    left: 35px;
+    font-family: 'Inter';
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.id,
+.status {
+    margin: 10px 80px;
+}
+
+.status {
+    width: 120px;
+    height: 40px;
+    left: 508px;
+    top: 537px;
+    /* Primary/Orange 800 (Main) */
+    /* background: #bdbdbd; */
+    border-radius: 8px;
+    border: 0;
+    border-color: #bdbdbd;
+    color: rgb(44, 44, 44);
+    box-shadow: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.data ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 5px 20px;
+}
+
+.data ul li span {
+    color: rgb(78, 76, 76);
+}
+
+.todo {
+    background-color: #bdbdbd;
+}
+
+.inp {
+    background-color: #4d96b8;
+}
+
+.done {
+    background-color: #76c893;
+}

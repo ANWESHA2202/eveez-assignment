@@ -1,0 +1,62 @@
+.navbar {
+    position: absolute;
+    width: 100vw;
+    height: 170px;
+    left: 0px;
+    top: 20px;
+    background: #FFFFFF;
+}
+
+.logo {
+    position: relative;
+    top: 25px;
+    left: 106px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 875px;
+    height: 49px;
+    left: 318px;
+    top: 90px;
+    list-style: none;
+    gap: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.2px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.sublinks {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 768px;
+    height: 49px;
+    left: 340px;
+    top: 130px;
+    font-family: 'Inter';
+    list-style: none;
+    gap: 40px;
+}
+
+.icons1 {
+    position: absolute;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+}
+
+.icons2 {
+    position: absolute;
+    right: 20%;
+    top: 19.67%;
+}

@@ -1,0 +1,33 @@
+.containers {
+    margin: 1.5%;
+    height: 190px;
+    width: 300px;
+    border: 1px solid #FF8267;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fleex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ticketCount {
+    list-style: none;
+    text-align: center;
+    font-family: 'Inter';
+}
+
+.count {
+    font-size: 5em;
+    font-weight: 700;
+    color: #FF8267;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 1.2em;
+}
